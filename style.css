@@ -1,0 +1,35 @@
+#result img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#result{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 70px;
+    grid-column-gap: 50px;
+}
+.result-item{
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+.meal-title{
+    padding: 10px;
+    text-align: center;
+}
+#meal-details img{
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#meal-details{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
